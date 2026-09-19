@@ -5,7 +5,7 @@ export const siteConfig = {
   fullName: 'Avneet Aujla',
   title: 'Avneet Aujla’s Portfolio',
   description:
-    'Fourth-year Mechanical Engineering student at the University of Guelph. Experience at TMMC and Cargill in mechanical design, systems, automation, and machine vision.',
+    'Mechanical Engineering · Design · Systems · Automation · Analysis',
   siteUrl: 'https://avneetaujla.github.io/engineering-portfolio-/',
   ogImage:
     'https://avneetaujla.github.io/engineering-portfolio-/avneet-aujla-portfolio-preview.png',
