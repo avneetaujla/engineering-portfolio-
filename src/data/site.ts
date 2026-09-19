@@ -3,9 +3,12 @@ import { publicUrl } from '@/lib/assets'
 export const siteConfig = {
   name: 'Avneet Aujla',
   fullName: 'Avneet Aujla',
-  title: 'Avneet Aujla | Mechanical Engineering Portfolio',
+  title: 'Avneet Aujla’s Portfolio',
   description:
-    'Mechanical engineering portfolio — design, analysis, automation, systems integration, and implementation across professional and academic work.',
+    'Fourth-year Mechanical Engineering student at the University of Guelph. Experience at TMMC and Cargill in mechanical design, systems, automation, and machine vision.',
+  siteUrl: 'https://avneetaujla.github.io/engineering-portfolio-/',
+  ogImage:
+    'https://avneetaujla.github.io/engineering-portfolio-/avneet-aujla-portfolio-preview.png',
   positioning: {
     discipline: 'Mechanical Engineering',
     focus: ['Mechanical Design', 'Systems', 'Automation', 'Analysis'],
