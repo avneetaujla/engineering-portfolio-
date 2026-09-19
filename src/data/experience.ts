@@ -1,3 +1,5 @@
+import { publicUrl } from '@/lib/assets'
+
 export type ExperienceItem = {
   id: string
   company: string
@@ -37,7 +39,7 @@ export const experiences: ExperienceItem[] = [
       'rav4-hood-cowl-trim-analysis',
     ],
     requiresSanitization: true,
-    logoSrc: '/tmmc-logo.webp',
+    logoSrc: publicUrl('/tmmc-logo.webp'),
     logoAlt: 'Toyota Motor Manufacturing Canada logo',
   },
   {
@@ -60,7 +62,7 @@ export const experiences: ExperienceItem[] = [
       'product-transfer-conveyor',
     ],
     requiresSanitization: true,
-    logoSrc: '/cargill-logo.webp',
+    logoSrc: publicUrl('/cargill-logo.webp'),
     logoAlt: 'Cargill logo',
   },
 ]

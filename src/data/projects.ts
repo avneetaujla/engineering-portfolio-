@@ -1,3 +1,5 @@
+import { publicUrl } from '@/lib/assets'
+
 export type ProjectCategory =
   | 'Industry — Toyota Motor Manufacturing Canada'
   | 'Industry — Cargill'
@@ -458,7 +460,7 @@ export const projects: Project[] = [
         title: 'RAV4 Hood Cowl Area',
         description: 'Annotated view of the RAV4 hood highlighting the cowl / stretch-flange inspection region.',
         technicalLabel: 'TOYOTA MOTOR MANUFACTURING CANADA / HOOD COWL',
-        src: '/projects/rav4-hood-cowl-hero.jpg',
+        src: publicUrl('/projects/rav4-hood-cowl-hero.jpg'),
         alt: 'Red Toyota RAV4 hood with annotated dashed lines marking the cowl flange inspection area near the windshield',
         aspectRatio: '16/9',
         objectPosition: 'center top',
@@ -470,7 +472,7 @@ export const projects: Project[] = [
         title: 'Bad Trim Example',
         description: 'Magnified trimmed-edge condition showing irregular transition characteristics associated with elevated split risk.',
         technicalLabel: 'TOYOTA MOTOR MANUFACTURING CANADA / BAD TRIM',
-        src: '/projects/rav4-hood-cowl-bad-trim.jpg',
+        src: publicUrl('/projects/rav4-hood-cowl-bad-trim.jpg'),
         alt: 'Handheld microscope display at 600X showing a bad trim edge condition on the RAV4 hood cowl flange',
         aspectRatio: '3/2',
         confidential: false,
@@ -481,7 +483,7 @@ export const projects: Project[] = [
         title: 'Good Trim Example',
         description: 'Magnified trimmed-edge condition showing a more consistent burnished-to-fracture transition associated with acceptable trim quality.',
         technicalLabel: 'TOYOTA MOTOR MANUFACTURING CANADA / GOOD TRIM',
-        src: '/projects/rav4-hood-cowl-good-trim.jpg',
+        src: publicUrl('/projects/rav4-hood-cowl-good-trim.jpg'),
         alt: 'Handheld microscope display at 600X showing a good trim edge condition on the RAV4 hood cowl flange',
         aspectRatio: '3/2',
         confidential: false,
@@ -540,7 +542,7 @@ export const projects: Project[] = [
         description:
           'Conceptual before/after illustration based on site condition and design-development photographs.',
         technicalLabel: 'CARGILL / MECHANICAL DESIGN',
-        src: '/projects/cargill-gate-restraining/before-after.png',
+        src: publicUrl('/projects/cargill-gate-restraining/before-after.png'),
         alt: 'Conceptual before and after engineering illustration of the gate restraining system',
         aspectRatio: '16/9',
         confidential: false,
@@ -592,7 +594,7 @@ export const projects: Project[] = [
         description:
           'Internship showcase poster for the Product Transfer Conveyor project at Cargill, with proprietary content redacted.',
         technicalLabel: 'CARGILL / CONVEYOR',
-        src: '/projects/product-transfer-conveyor-hero.jpg',
+        src: publicUrl('/projects/product-transfer-conveyor-hero.jpg'),
         alt: 'Avneet Aujla presenting a Cargill Product Transfer Conveyor internship poster with project content redacted',
         aspectRatio: '3/2',
         objectPosition: 'center 35%',
@@ -605,7 +607,7 @@ export const projects: Project[] = [
         description:
           'Poster station at Cargill Protein North America Headquarters in Wichita, Kansas, where the Product Transfer Conveyor project was presented to senior leadership. Proprietary poster content redacted.',
         technicalLabel: 'CARGILL / WICHITA HQ',
-        src: '/projects/product-transfer-conveyor-wichita-presentation.jpg',
+        src: publicUrl('/projects/product-transfer-conveyor-wichita-presentation.jpg'),
         alt: 'Product Transfer Conveyor presentation poster and name card at Cargill Protein North America Headquarters in Wichita, Kansas',
         aspectRatio: '3/4',
         objectPosition: 'center 30%',
@@ -693,7 +695,7 @@ export const projects: Project[] = [
         title: 'TBWC Mechanical Prototype',
         description: 'Isolated view of the TBWC chassis, drivetrain, and launcher structure.',
         technicalLabel: 'ENG*1100 / TBWC',
-        src: '/projects/tbwc-project-hero.png',
+        src: publicUrl('/projects/tbwc-project-hero.png'),
         alt: 'TBWC perforated-metal chassis prototype with wheels, motor, battery pack, and twine launcher arm on a dark background',
         aspectRatio: '16/9',
         confidential: false,
@@ -704,7 +706,7 @@ export const projects: Project[] = [
         title: 'TBWC Competition Video',
         description: 'Demonstration demonstration of the TBWC on the performance course.',
         technicalLabel: 'ENG*1100 / VIDEO',
-        src: '/projects/tbwc-competition-demo.mp4',
+        src: publicUrl('/projects/tbwc-competition-demo.mp4'),
         alt: 'Video of the Teddy Bear Wheelchair competition run',
         aspectRatio: '9/16',
         confidential: false,
@@ -713,7 +715,7 @@ export const projects: Project[] = [
     resources: [
       {
         label: 'ENG*1100 Final Design Report (PDF)',
-        href: '/projects/tbwc-eng1100-final-report.pdf',
+        href: publicUrl('/projects/tbwc-eng1100-final-report.pdf'),
       },
     ],
     requiresSanitization: false,
@@ -792,7 +794,7 @@ export const projects: Project[] = [
         title: 'BP1 Instruction Sheet',
         description: 'Blueprint 1 instruction sheet for the F1 Kinder toy.',
         technicalLabel: 'ENGG*2100 / BP1',
-        src: '/projects/f1-kinder-toy-instruction-sheet.png',
+        src: publicUrl('/projects/f1-kinder-toy-instruction-sheet.png'),
         alt: 'Blueprint 1 instruction sheet showing F1 Kinder toy assembly steps',
         aspectRatio: '16/9',
         confidential: false,
@@ -803,7 +805,7 @@ export const projects: Project[] = [
         title: 'Blueprint 1 Demonstration',
         description: 'Operating demonstration of the wind-up F1 Kinder toy.',
         technicalLabel: 'ENGG*2100 / DEMO',
-        src: '/projects/f1-kinder-toy-demo.mp4',
+        src: publicUrl('/projects/f1-kinder-toy-demo.mp4'),
         alt: 'Video demonstration of the Blueprint 1 F1 Kinder toy in operation',
         aspectRatio: '16/9',
         confidential: false,
@@ -812,7 +814,7 @@ export const projects: Project[] = [
     resources: [
       {
         label: 'ENGG*2100 Final Report (PDF)',
-        href: '/projects/f1-kinder-engg2100-final-report.pdf',
+        href: publicUrl('/projects/f1-kinder-engg2100-final-report.pdf'),
       },
     ],
     requiresSanitization: false,
@@ -880,7 +882,7 @@ export const projects: Project[] = [
         title: 'SolidWorks Assembly — Front Elevation',
         description: 'CAD render of the dual-belt special-effects mechanism frame, chain drive, and bevel gear path.',
         technicalLabel: 'UOG / MACHINE DESIGN',
-        src: '/projects/mechanical-special-effects-hero.png',
+        src: publicUrl('/projects/mechanical-special-effects-hero.png'),
         alt: 'SolidWorks front elevation of the mechanical special-effects highway chase machine with wooden frame, belt, chain drive, and bevel gears',
         aspectRatio: '16/9',
         confidential: false,
@@ -891,7 +893,7 @@ export const projects: Project[] = [
         title: 'Initial Post-Assembly Testing',
         description: 'First startup after assembly — verifying belt motion, chain drive, and overall mechanism operation.',
         technicalLabel: 'UOG / INITIAL TEST',
-        src: '/projects/mech-sfx-initial-testing.mp4',
+        src: publicUrl('/projects/mech-sfx-initial-testing.mp4'),
         alt: 'Video of initial testing of the mechanical special-effects machine after assembly',
         aspectRatio: '9/16',
         confidential: false,
@@ -902,7 +904,7 @@ export const projects: Project[] = [
         title: 'Final Assembly — Slow Motion',
         description: 'Completed highway-chase special-effects mechanism shown in slow motion.',
         technicalLabel: 'UOG / FINAL SLOW-MO',
-        src: '/projects/mech-sfx-final-slowmo.mp4',
+        src: publicUrl('/projects/mech-sfx-final-slowmo.mp4'),
         alt: 'Slow-motion video of the finished mechanical special-effects highway chase machine',
         aspectRatio: '16/9',
         confidential: false,
@@ -911,7 +913,7 @@ export const projects: Project[] = [
     resources: [
       {
         label: 'Machine Design Final Report (PDF)',
-        href: '/projects/mechanical-special-effects-final-report.pdf',
+        href: publicUrl('/projects/mechanical-special-effects-final-report.pdf'),
       },
     ],
     requiresSanitization: false,

@@ -1,3 +1,5 @@
+import { publicUrl } from '@/lib/assets'
+
 export const siteConfig = {
   name: 'Avneet Aujla',
   fullName: 'Avneet Aujla',
@@ -20,8 +22,8 @@ export const siteConfig = {
   contact: {
     email: 'aaujla02@uoguelph.ca',
     linkedin: 'https://www.linkedin.com/in/avneetaujla',
-    resumePath: '/resume.pdf',
-    resumePreviewPath: '/resume-preview.png',
+    resumePath: publicUrl('/resume.pdf'),
+    resumePreviewPath: publicUrl('/resume-preview.png'),
   },
   confidentiality: {
     notice:

@@ -1,3 +1,4 @@
+import { publicUrl } from '@/lib/assets'
 import { siteConfig } from '@/data/site'
 import { ButtonLink } from '@/components/ui/Button'
 
@@ -13,14 +14,14 @@ const experiencePanel = [
     value: '8 months',
     label: 'Toyota Motor Manufacturing Canada',
     detail: 'Engineering Analyst — Press Shop',
-    logoSrc: '/tmmc-logo.webp',
+    logoSrc: publicUrl('/tmmc-logo.webp'),
     logoAlt: 'Toyota Motor Manufacturing Canada logo',
   },
   {
     value: '4 months',
     label: 'Cargill',
     detail: 'Engineering Intern — Plant Projects',
-    logoSrc: '/cargill-logo.webp',
+    logoSrc: publicUrl('/cargill-logo.webp'),
     logoAlt: 'Cargill logo',
   },
 ] as const
