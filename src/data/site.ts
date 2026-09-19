@@ -3,9 +3,8 @@ import { publicUrl } from '@/lib/assets'
 export const siteConfig = {
   name: 'Avneet Aujla',
   fullName: 'Avneet Aujla',
-  title: 'Avneet Aujla’s Portfolio',
-  description:
-    'Mechanical Engineering · Design · Systems · Automation · Analysis',
+  title: 'Avneet Aujla | Engineering Portfolio',
+  description: 'Mechanical Design · Systems · Automation · Analysis',
   siteUrl: 'https://avneetaujla.github.io/engineering-portfolio-/',
   ogImage:
     'https://avneetaujla.github.io/engineering-portfolio-/avneet-aujla-portfolio-preview.png',
