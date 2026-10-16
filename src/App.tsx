@@ -14,6 +14,7 @@ import { ProjectDetailPage } from '@/pages/ProjectDetailPage'
 import { SkillsPage } from '@/pages/SkillsPage'
 import { AboutPage } from '@/pages/AboutPage'
 import { ResumePage } from '@/pages/ResumePage'
+import { PortfolioPdfPage } from '@/pages/PortfolioPdfPage'
 
 function ScrollToTop() {
   const { pathname, hash } = useLocation()
@@ -38,6 +39,7 @@ export default function App() {
     <BrowserRouter basename={import.meta.env.BASE_URL}>
       <ScrollToTop />
       <Routes>
+        <Route path="portfolio-pdf" element={<PortfolioPdfPage />} />
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="work" element={<Navigate to="/projects" replace />} />

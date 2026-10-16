@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Redirecting…</title>
+    <link rel="canonical" href="https://avneets-portfolio.netlify.app/" />
+    <meta
+      http-equiv="refresh"
+      content="0; url=https://avneets-portfolio.netlify.app/"
+    />
+    <script>
+      (function () {
+        var prefix = '/engineering-portfolio-'
+        var path = location.pathname
+        if (path === prefix || path === prefix + '/') {
+          path = '/'
+        } else if (path.indexOf(prefix + '/') === 0) {
+          path = path.slice(prefix.length)
+        } else {
+          path = '/'
+        }
+        var target =
+          'https://avneets-portfolio.netlify.app' +
+          path +
+          location.search +
+          location.hash
+        location.replace(target)
+      })()
+    </script>
+  </head>
+  <body>
+    <p>
+      This portfolio has moved to
+      <a href="https://avneets-portfolio.netlify.app/">avneets-portfolio.netlify.app</a>.
+    </p>
+  </body>
+</html>
